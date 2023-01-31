@@ -3,11 +3,6 @@ package global;
 @:native("GPUUncapturedErrorEvent") extern class GPUUncapturedErrorEvent {
 	function new(type:String, gpuUncapturedErrorEventInitDict:GPUUncapturedErrorEventInit);
 	/**
-		Nominal type branding.
-		https://github.com/microsoft/TypeScript/pull/33038
-	**/
-	final __brand : String;
-	/**
 		A slot-backed attribute holding an object representing the error that was uncaptured.
 		This has the same type as errors returned by {@link GPUDevice#popErrorScope}.
 	**/

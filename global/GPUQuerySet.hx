@@ -3,11 +3,6 @@ package global;
 @:native("GPUQuerySet") extern class GPUQuerySet {
 	function new();
 	/**
-		Nominal type branding.
-		https://github.com/microsoft/TypeScript/pull/33038
-	**/
-	final __brand : String;
-	/**
 		Destroys the {@link GPUQuerySet}.
 	**/
 	function destroy():Null<Any>;

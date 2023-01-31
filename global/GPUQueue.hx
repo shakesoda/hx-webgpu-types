@@ -3,11 +3,6 @@ package global;
 @:native("GPUQueue") extern class GPUQueue {
 	function new();
 	/**
-		Nominal type branding.
-		https://github.com/microsoft/TypeScript/pull/33038
-	**/
-	final __brand : String;
-	/**
 		Schedules the execution of the command buffers by the GPU on this queue.
 		Submitted command buffers cannot be used again.
 		 	`commandBuffers`:

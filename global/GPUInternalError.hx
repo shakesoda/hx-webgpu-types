@@ -3,11 +3,6 @@ package global;
 @:native("GPUInternalError") extern class GPUInternalError {
 	function new(message:String);
 	/**
-		Nominal type branding.
-		https://github.com/microsoft/TypeScript/pull/33038
-	**/
-	final __brand : String;
-	/**
 		A human-readable message providing information about the error that occurred.
 		Note: This message is generally intended for application developers to debug their
 		applications and capture information for debug reports, not to be surfaced to end-users.

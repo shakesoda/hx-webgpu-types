@@ -3,11 +3,6 @@ package global;
 @:native("GPUDevice") extern class GPUDevice {
 	function new();
 	/**
-		Nominal type branding.
-		https://github.com/microsoft/TypeScript/pull/33038
-	**/
-	final __brand : String;
-	/**
 		A set containing the {@link GPUFeatureName} values of the features
 		supported by the device (i.e. the ones with which it was created).
 	**/

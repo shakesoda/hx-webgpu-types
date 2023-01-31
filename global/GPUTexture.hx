@@ -3,11 +3,6 @@ package global;
 @:native("GPUTexture") extern class GPUTexture {
 	function new();
 	/**
-		Nominal type branding.
-		https://github.com/microsoft/TypeScript/pull/33038
-	**/
-	final __brand : String;
-	/**
 		Creates a {@link GPUTextureView}.
 	**/
 	function createView(?descriptor:GPUTextureViewDescriptor):GPUTextureView;
