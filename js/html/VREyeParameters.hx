@@ -9,5 +9,4 @@ package js.html;
 	final offset : js.lib.Float32Array;
 	final renderHeight : Float;
 	final renderWidth : Float;
-	static var prototype : VREyeParameters;
 }

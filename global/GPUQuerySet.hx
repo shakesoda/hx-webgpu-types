@@ -15,5 +15,4 @@ package global;
 	**/
 	final count : Int;
 	var label : String;
-	static var prototype : GPUQuerySet;
 }

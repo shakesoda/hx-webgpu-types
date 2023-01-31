@@ -11,5 +11,4 @@ package js.html;
 	final rightProjectionMatrix : js.lib.Float32Array;
 	final rightViewMatrix : js.lib.Float32Array;
 	final timestamp : Float;
-	static var prototype : VRFrameData;
 }

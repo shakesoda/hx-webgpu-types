@@ -27,5 +27,4 @@ package global;
 		however, no dialogs should be displayed to the user.
 	**/
 	function requestAdapterInfo(?unmaskHints:Array<String>):js.lib.Promise<GPUAdapterInfo>;
-	static var prototype : GPUAdapter;
 }

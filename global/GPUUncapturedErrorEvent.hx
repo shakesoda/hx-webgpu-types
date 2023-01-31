@@ -71,5 +71,4 @@ package global;
 	final BUBBLING_PHASE : Float;
 	final CAPTURING_PHASE : Float;
 	final NONE : Float;
-	static var prototype : GPUUncapturedErrorEvent;
 }

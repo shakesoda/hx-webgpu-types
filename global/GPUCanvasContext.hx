@@ -26,5 +26,4 @@ package global;
 		been removed (in [$Replace the drawing buffer$]).
 	**/
 	function getCurrentTexture():GPUTexture;
-	static var prototype : GPUCanvasContext;
 }

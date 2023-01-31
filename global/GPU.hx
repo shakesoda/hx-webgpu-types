@@ -19,5 +19,4 @@ package global;
 		format.
 	**/
 	function getPreferredCanvasFormat():GPUTextureFormat;
-	static var prototype : GPU;
 }

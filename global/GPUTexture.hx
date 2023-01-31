@@ -43,5 +43,4 @@ package global;
 	**/
 	final usage : Int;
 	var label : String;
-	static var prototype : GPUTexture;
 }

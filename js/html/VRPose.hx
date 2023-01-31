@@ -12,5 +12,4 @@ package js.html;
 	final orientation : Null<js.lib.Float32Array>;
 	final position : Null<js.lib.Float32Array>;
 	final timestamp : Float;
-	static var prototype : VRPose;
 }

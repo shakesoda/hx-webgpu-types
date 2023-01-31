@@ -4,5 +4,4 @@ package global;
 	function new();
 	final reason : Null<String>;
 	final message : String;
-	static var prototype : GPUDeviceLostInfo;
 }

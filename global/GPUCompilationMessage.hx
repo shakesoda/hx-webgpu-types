@@ -46,5 +46,4 @@ package global;
 		{@link GPUCompilationMessage#length} must be 0.
 	**/
 	final length : Int;
-	static var prototype : GPUCompilationMessage;
 }

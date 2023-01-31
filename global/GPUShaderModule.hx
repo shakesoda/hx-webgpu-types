@@ -9,5 +9,4 @@ package global;
 	**/
 	function compilationInfo():js.lib.Promise<GPUCompilationInfo>;
 	var label : String;
-	static var prototype : GPUShaderModule;
 }

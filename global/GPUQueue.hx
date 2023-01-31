@@ -37,5 +37,4 @@ package global;
 	**/
 	function copyExternalImageToTexture(source:GPUImageCopyExternalImage, destination:GPUImageCopyTextureTagged, copySize:GPUExtent3DStrict):Null<Any>;
 	var label : String;
-	static var prototype : GPUQueue;
 }

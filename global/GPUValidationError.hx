@@ -11,5 +11,4 @@ package global;
 		conditions under which memory was exhausted.
 	**/
 	final message : String;
-	static var prototype : GPUValidationError;
 }

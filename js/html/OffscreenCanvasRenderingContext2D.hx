@@ -74,5 +74,4 @@ package js.html;
 	function setTransform(a:Float, b:Float, c:Float, d:Float, e:Float, f:Float):Void;
 	function transform(a:Float, b:Float, c:Float, d:Float, e:Float, f:Float):Void;
 	function translate(x:Float, y:Float):Void;
-	static var prototype : OffscreenCanvasRenderingContext2D;
 }

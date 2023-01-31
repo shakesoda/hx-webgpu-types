@@ -4,5 +4,4 @@ package global;
 	function new();
 	static final READ: Int;
 	static final WRITE: Int;
-	static var prototype: GPUMapMode;
 }

@@ -72,5 +72,4 @@ package js.html;
 	final BUBBLING_PHASE : Float;
 	final CAPTURING_PHASE : Float;
 	final NONE : Float;
-	static var prototype : ProgressEvent_<js.html.EventTarget>;
 }

@@ -7,5 +7,4 @@ package js.html;
 	function new();
 	final constrictionActive : Bool;
 	final status : String;
-	static var prototype : MSGraphicsTrust;
 }

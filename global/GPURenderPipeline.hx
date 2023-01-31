@@ -8,5 +8,4 @@ package global;
 		{@link GPUBindGroupLayout} at `index`.
 	**/
 	function getBindGroupLayout(index:Float):GPUBindGroupLayout;
-	static var prototype : GPURenderPipeline;
 }

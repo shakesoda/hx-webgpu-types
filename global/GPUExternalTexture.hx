@@ -8,5 +8,4 @@ package global;
 	**/
 	final expired : Bool;
 	var label : String;
-	static var prototype : GPUExternalTexture;
 }

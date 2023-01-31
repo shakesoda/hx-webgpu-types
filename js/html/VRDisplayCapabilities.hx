@@ -10,5 +10,4 @@ package js.html;
 	final hasOrientation : Bool;
 	final hasPosition : Bool;
 	final maxLayers : Float;
-	static var prototype : VRDisplayCapabilities;
 }

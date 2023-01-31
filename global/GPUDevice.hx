@@ -134,5 +134,4 @@ package global;
 	**/
 	function removeEventListener(type:String, callback:Null<js.html.EventListenerOrEventListenerObject>, ?options:ts.AnyOf2<Bool, js.html.EventListenerOptions>):Void;
 	var label : String;
-	static var prototype : GPUDevice;
 }

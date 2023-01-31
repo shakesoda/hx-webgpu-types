@@ -46,5 +46,4 @@ package js.html;
 		Removes the event listener in target's event listener list with the same type, callback, and options.
 	**/
 	function removeEventListener(type:String, callback:Null<EventListenerOrEventListenerObject>, ?options:ts.AnyOf2<Bool, js.html.EventListenerOptions>):Void;
-	static var prototype : VRDisplay;
 }

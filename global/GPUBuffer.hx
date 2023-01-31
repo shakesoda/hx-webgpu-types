@@ -36,5 +36,4 @@ package global;
 	**/
 	function destroy():Null<Any>;
 	var label : String;
-	static var prototype : GPUBuffer;
 }
