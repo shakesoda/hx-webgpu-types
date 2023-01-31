@@ -6,7 +6,7 @@ typedef GPUBindGroupEntry = {
 		{@link GPUBindGroupLayoutEntry#binding|GPUBindGroupLayoutEntry.binding} and a @binding
 		attribute in the {@link GPUShaderModule}.
 	**/
-	var binding : Float;
+	var binding : Int;
 	/**
 		The resource to bind, which may be a {@link GPUSampler}, {@link GPUTextureView},
 		{@link GPUExternalTexture}, or {@link GPUBufferBinding}.

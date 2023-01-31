@@ -8,7 +8,7 @@ typedef GPUQuerySetDescriptor = {
 	/**
 		The number of queries managed by {@link GPUQuerySet}.
 	**/
-	var count : Float;
+	var count : Int;
 	/**
 		The initial value of {@link GPUObjectBase#label|GPUObjectBase.label}.
 	**/

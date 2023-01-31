@@ -8,12 +8,12 @@ typedef GPUMultisampleState = {
 		with matching {@link GPUTextureDescriptor#sampleCount}s.
 	**/
 	@:optional
-	var count : Float;
+	var count : Int;
 	/**
 		Mask determining which samples are written to.
 	**/
 	@:optional
-	var mask : Float;
+	var mask : Int;
 	/**
 		When `true` indicates that a fragment's alpha channel should be used to generate a sample
 		coverage mask.

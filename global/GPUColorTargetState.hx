@@ -5,5 +5,5 @@ typedef GPUColorTargetState = {
 	@:optional
 	var blend : GPUBlendState;
 	@:optional
-	var writeMask : Float;
+	var writeMask : Int;
 };

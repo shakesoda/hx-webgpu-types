@@ -32,7 +32,7 @@ typedef GPURenderPassDescriptor = {
 		is a good default, unless it is known that more draw calls will be done.
 	**/
 	@:optional
-	var maxDrawCount : Float;
+	var maxDrawCount : Int;
 	/**
 		The initial value of {@link GPUObjectBase#label|GPUObjectBase.label}.
 	**/

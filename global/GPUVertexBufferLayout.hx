@@ -4,7 +4,7 @@ typedef GPUVertexBufferLayout = {
 	/**
 		The stride, in bytes, between elements of this array.
 	**/
-	var arrayStride : Float;
+	var arrayStride : Int;
 	/**
 		Whether each element of this array represents per-vertex data or per-instance data
 	**/

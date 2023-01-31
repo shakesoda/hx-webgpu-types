@@ -2,8 +2,8 @@ package global;
 
 @:native("GPUBuffer") extern class GPUBuffer {
 	function new();
-	final size : Float;
-	final usage : Float;
+	final size : Int;
+	final usage : Int;
 	final mapState : GPUBufferMapState;
 	/**
 		Maps the given range of the {@link GPUBuffer} and resolves the returned {@link Promise} when the

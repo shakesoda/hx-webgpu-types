@@ -21,7 +21,7 @@ package global;
 		does not correspond to any specific point in the shader {@link GPUShaderModuleDescriptor#code}.
 		Issue(gpuweb/gpuweb#2435): Reference WGSL spec when it [defines what a line is](https://gpuweb.github.io/gpuweb/wgsl/#comments).
 	**/
-	final lineNum : Float;
+	final lineNum : Int;
 	/**
 		The offset, in UTF-16 code units, from the beginning of line {@link GPUCompilationMessage#lineNum}
 		of the shader {@link GPUShaderModuleDescriptor#code} to the point or beginning of the substring
@@ -31,7 +31,7 @@ package global;
 		first UTF-16 code unit of the substring. Must be `0` if the {@link GPUCompilationMessage#message}
 		does not correspond to any specific point in the shader {@link GPUShaderModuleDescriptor#code}.
 	**/
-	final linePos : Float;
+	final linePos : Int;
 	/**
 		The offset from the beginning of the shader {@link GPUShaderModuleDescriptor#code} in UTF-16
 		code units to the point or beginning of the substring that {@link GPUCompilationMessage#message}
@@ -39,12 +39,12 @@ package global;
 		{@link GPUCompilationMessage#linePos}. Must be `0` if the {@link GPUCompilationMessage#message}
 		does not correspond to any specific point in the shader {@link GPUShaderModuleDescriptor#code}.
 	**/
-	final offset : Float;
+	final offset : Int;
 	/**
 		The number of UTF-16 code units in the substring that {@link GPUCompilationMessage#message}
 		corresponds to. If the message does not correspond with a substring then
 		{@link GPUCompilationMessage#length} must be 0.
 	**/
-	final length : Float;
+	final length : Int;
 	static var prototype : GPUCompilationMessage;
 }

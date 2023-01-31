@@ -13,7 +13,7 @@ package global;
 	/**
 		The number of queries managed by this {@link GPUQuerySet}.
 	**/
-	final count : Float;
+	final count : Int;
 	var label : String;
 	static var prototype : GPUQuerySet;
 }

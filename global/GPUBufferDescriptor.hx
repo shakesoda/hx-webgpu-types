@@ -4,11 +4,11 @@ typedef GPUBufferDescriptor = {
 	/**
 		The size of the buffer in bytes.
 	**/
-	var size : Float;
+	var size : Int;
 	/**
 		The allowed usages for the buffer.
 	**/
-	var usage : Float;
+	var usage : Int;
 	/**
 		If `true` creates the buffer in an already mapped state, allowing
 		{@link GPUBuffer#getMappedRange} to be called immediately. It is valid to set

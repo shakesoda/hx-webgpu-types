@@ -9,7 +9,7 @@ typedef GPURenderBundleEncoderDescriptor = {
 	@:optional
 	var depthStencilFormat : GPUTextureFormat;
 	@:optional
-	var sampleCount : Float;
+	var sampleCount : Int;
 	/**
 		The initial value of {@link GPUObjectBase#label|GPUObjectBase.label}.
 	**/

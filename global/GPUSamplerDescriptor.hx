@@ -50,7 +50,7 @@ typedef GPUSamplerDescriptor = {
 		be clamped to the maximum value that the platform supports.
 	**/
 	@:optional
-	var maxAnisotropy : Float;
+	var maxAnisotropy : Int;
 	/**
 		The initial value of {@link GPUObjectBase#label|GPUObjectBase.label}.
 	**/

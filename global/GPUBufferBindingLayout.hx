@@ -28,5 +28,5 @@ typedef GPUBufferBindingLayout = {
 		most ergonomic impact.
 	**/
 	@:optional
-	var minBindingSize : Float;
+	var minBindingSize : Int;
 };

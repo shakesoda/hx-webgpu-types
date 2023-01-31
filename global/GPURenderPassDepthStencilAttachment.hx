@@ -42,7 +42,7 @@ typedef GPURenderPassDepthStencilAttachment = {
 		number of LSBs as the number of bits in the stencil aspect of one texel block of `view`.
 	**/
 	@:optional
-	var stencilClearValue : Float;
+	var stencilClearValue : Int;
 	/**
 		Indicates the load operation to perform on {@link GPURenderPassDepthStencilAttachment#view}'s
 		stencil component prior to executing the render pass.

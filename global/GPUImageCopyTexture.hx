@@ -9,7 +9,7 @@ typedef GPUImageCopyTexture = {
 		Mip-map level of the {@link GPUImageCopyTexture#texture} to copy to/from.
 	**/
 	@:optional
-	var mipLevel : Float;
+	var mipLevel : Int;
 	/**
 		Defines the origin of the copy - the minimum corner of the texture sub-region to copy to/from.
 		Together with `copySize`, defines the full copy sub-region.

@@ -19,7 +19,7 @@ typedef GPUCanvasConfiguration = {
 		{@link GPUCanvasContext#getCurrentTexture} as color targets for a render pass.
 	**/
 	@:optional
-	var usage : Float;
+	var usage : Int;
 	/**
 		The formats that views created from textures returned by
 		{@link GPUCanvasContext#getCurrentTexture} may use.
