@@ -8,7 +8,7 @@ typedef GPUDeviceDescriptor = {
 		of API calls on the resulting device.
 	**/
 	@:optional
-	var requiredFeatures : Iterable<GPUFeatureName>;
+	var requiredFeatures : Array<GPUFeatureName>;
 	/**
 		Specifies the limits that are required by the device request.
 		The request will fail if the adapter cannot provide these limits.

@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUShaderStageFlags = Float;
+typedef GPUShaderStageFlags = Int;

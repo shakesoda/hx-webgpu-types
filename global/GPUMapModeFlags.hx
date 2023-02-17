@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUMapModeFlags = Float;
+typedef GPUMapModeFlags = Int;

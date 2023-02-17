@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUComputePassTimestampWrites = Iterable<GPUComputePassTimestampWrite>;
+typedef GPUComputePassTimestampWrites = Array<GPUComputePassTimestampWrite>;

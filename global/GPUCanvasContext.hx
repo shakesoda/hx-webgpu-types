@@ -10,11 +10,11 @@ package global;
 		Configures the context for this canvas.
 		This clears the drawing buffer to transparent black (in [$Replace the drawing buffer$]).
 	**/
-	function configure(configuration:GPUCanvasConfiguration):Null<Any>;
+	function configure(configuration:GPUCanvasConfiguration):Void;
 	/**
 		Removes the context configuration. Destroys any textures produced while configured.
 	**/
-	function unconfigure():Null<Any>;
+	function unconfigure():Void;
 	function getPreferredFormat(adapter:GPUAdapter):GPUTextureFormat;
 	/**
 		Get the {@link GPUTexture} that will be composited to the document by the {@link GPUCanvasContext}

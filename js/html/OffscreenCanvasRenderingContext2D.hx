@@ -48,7 +48,7 @@ package js.html;
 	var lineWidth : Float;
 	var miterLimit : Float;
 	function getLineDash():Array<Float>;
-	@:overload(function(segments:Iterable<Float>):Void { })
+	@:overload(function(segments:Array<Float>):Void { })
 	function setLineDash(segments:Array<Float>):Void;
 	function clearRect(x:Float, y:Float, w:Float, h:Float):Void;
 	function fillRect(x:Float, y:Float, w:Float, h:Float):Void;

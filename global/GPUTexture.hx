@@ -9,7 +9,7 @@ package global;
 	/**
 		Destroys the {@link GPUTexture}.
 	**/
-	function destroy():Null<Any>;
+	function destroy():Void;
 	/**
 		The width of this {@link GPUTexture}.
 	**/

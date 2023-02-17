@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUColorWriteFlags = Float;
+typedef GPUColorWriteFlags = Int;

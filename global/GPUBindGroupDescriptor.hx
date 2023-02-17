@@ -9,7 +9,7 @@ typedef GPUBindGroupDescriptor = {
 		A list of entries describing the resources to expose to the shader for each binding
 		described by the {@link GPUBindGroupDescriptor#layout}.
 	**/
-	var entries : Iterable<GPUBindGroupEntry>;
+	var entries : Array<GPUBindGroupEntry>;
 	/**
 		The initial value of {@link GPUObjectBase#label|GPUObjectBase.label}.
 	**/

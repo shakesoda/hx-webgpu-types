@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUIntegerCoordinate = Float;
+typedef GPUIntegerCoordinate = Int;

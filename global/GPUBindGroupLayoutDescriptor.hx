@@ -1,7 +1,7 @@
 package global;
 
 typedef GPUBindGroupLayoutDescriptor = {
-	var entries : Iterable<GPUBindGroupLayoutEntry>;
+	var entries : Array<GPUBindGroupLayoutEntry>;
 	/**
 		The initial value of {@link GPUObjectBase#label|GPUObjectBase.label}.
 	**/

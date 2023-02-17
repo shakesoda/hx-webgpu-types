@@ -21,7 +21,7 @@ package global;
 		Outstanding asynchronous operations will fail.
 		Note: It is valid to destroy a device multiple times.
 	**/
-	function destroy():Null<Any>;
+	function destroy():Void;
 	/**
 		Creates a {@link GPUBuffer}.
 	**/
@@ -99,7 +99,7 @@ package global;
 	/**
 		Pushes a new GPU error scope onto the {@link GPUDevice#[[errorScopeStack]]} for `this`.
 	**/
-	function pushErrorScope(filter:GPUErrorFilter):Null<Any>;
+	function pushErrorScope(filter:GPUErrorFilter):Void;
 	/**
 		Pops a GPU error scope off the {@link GPUDevice#[[errorScopeStack]]} for `this`
 		and resolves to **any** {@link GPUError} observed by the error scope, or `null` if none.

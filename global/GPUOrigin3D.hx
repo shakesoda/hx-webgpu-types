@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUOrigin3D = ts.AnyOf2<Iterable<Float>, GPUOrigin3DDict>;
+typedef GPUOrigin3D = ts.AnyOf2<Array<Float>, GPUOrigin3DDict>;

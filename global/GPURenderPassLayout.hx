@@ -1,7 +1,7 @@
 package global;
 
 typedef GPURenderPassLayout = {
-	var colorFormats : Iterable<Null<GPUTextureFormat>>;
+	var colorFormats : Array<Null<GPUTextureFormat>>;
 	@:optional
 	var depthStencilFormat : GPUTextureFormat;
 	@:optional

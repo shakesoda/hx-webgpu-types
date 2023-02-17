@@ -27,13 +27,13 @@ package global;
 		Unmaps the mapped range of the {@link GPUBuffer} and makes it's contents available for use by the
 		GPU again.
 	**/
-	function unmap():Null<Any>;
+	function unmap():Void;
 	/**
 		Destroys the {@link GPUBuffer}.
 		Note: It is valid to destroy a buffer multiple times.
 		Note: Since no further operations can be enqueued using this buffer, implementations can
 		free resource allocations, including mapped memory that was just unmapped.
 	**/
-	function destroy():Null<Any>;
+	function destroy():Void;
 	var label : String;
 }

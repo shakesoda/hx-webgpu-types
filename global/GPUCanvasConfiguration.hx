@@ -25,7 +25,7 @@ typedef GPUCanvasConfiguration = {
 		{@link GPUCanvasContext#getCurrentTexture} may use.
 	**/
 	@:optional
-	var viewFormats : Iterable<GPUTextureFormat>;
+	var viewFormats : Array<GPUTextureFormat>;
 	/**
 		Determines the effect that alpha values will have on the content of textures returned by
 		{@link GPUCanvasContext#getCurrentTexture} when read, displayed, or used as an image source.

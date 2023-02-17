@@ -7,7 +7,7 @@ typedef GPURenderPassDescriptor = {
 		Due to compatible usage list|usage compatibility, no color attachment
 		may alias another attachment or any resource used inside the render pass.
 	**/
-	var colorAttachments : Iterable<Null<GPURenderPassColorAttachment>>;
+	var colorAttachments : Array<Null<GPURenderPassColorAttachment>>;
 	/**
 		The {@link GPURenderPassDepthStencilAttachment} value that defines the depth/stencil
 		attachment that will be output to and tested against when executing this render pass.

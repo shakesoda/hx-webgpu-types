@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUColor = ts.AnyOf2<Iterable<Float>, GPUColorDict>;
+typedef GPUColor = ts.AnyOf2<Array<Float>, GPUColorDict>;

@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUBufferUsageFlags = Float;
+typedef GPUBufferUsageFlags = Int;

@@ -1,3 +1,3 @@
 package global;
 
-typedef GPURenderPassTimestampWrites = Iterable<GPURenderPassTimestampWrite>;
+typedef GPURenderPassTimestampWrites = Array<GPURenderPassTimestampWrite>;

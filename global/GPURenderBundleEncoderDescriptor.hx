@@ -5,7 +5,7 @@ typedef GPURenderBundleEncoderDescriptor = {
 	var depthReadOnly : Bool;
 	@:optional
 	var stencilReadOnly : Bool;
-	var colorFormats : Iterable<Null<GPUTextureFormat>>;
+	var colorFormats : Array<Null<GPUTextureFormat>>;
 	@:optional
 	var depthStencilFormat : GPUTextureFormat;
 	@:optional

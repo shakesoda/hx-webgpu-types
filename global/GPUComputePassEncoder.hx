@@ -5,12 +5,12 @@ package global;
 	/**
 		Sets the current {@link GPUComputePipeline}.
 	**/
-	function setPipeline(pipeline:GPUComputePipeline):Null<Any>;
+	function setPipeline(pipeline:GPUComputePipeline):Void;
 	/**
 		Dispatch work to be performed with the current {@link GPUComputePipeline}.
 		See [[#computing-operations]] for the detailed specification.
 	**/
-	function dispatchWorkgroups(workgroupCountX:Float, ?workgroupCountY:Float, ?workgroupCountZ:Float):Null<Any>;
+	function dispatchWorkgroups(workgroupCountX:Int, ?workgroupCountY:Int, ?workgroupCountZ:Int):Void;
 
 	/**
 		Dispatch work to be performed with the current {@link GPUComputePipeline} using parameters read
@@ -20,31 +20,31 @@ package global;
 		given in the same order as the arguments for {@link GPUComputePassEncoder#dispatchWorkgroups}.
 		For example:
 	**/
-	function dispatchWorkgroupsIndirect(indirectBuffer:GPUBuffer, indirectOffset:Float):Null<Any>;
-	function dispatchIndirect(indirectBuffer:GPUBuffer, indirectOffset:Float):Null<Any>;
+	function dispatchWorkgroupsIndirect(indirectBuffer:GPUBuffer, indirectOffset:Int):Void;
+	function dispatchIndirect(indirectBuffer:GPUBuffer, indirectOffset:Int):Void;
 	/**
 		Completes recording of the compute pass commands sequence.
 	**/
-	function end():Null<Any>;
+	function end():Void;
 	var label : String;
 	/**
 		Begins a labeled debug group containing subsequent commands.
 	**/
-	function pushDebugGroup(groupLabel:String):Null<Any>;
+	function pushDebugGroup(groupLabel:String):Void;
 	/**
 		Ends the labeled debug group most recently started by {@link GPUDebugCommandsMixin#pushDebugGroup}.
 	**/
-	function popDebugGroup():Null<Any>;
+	function popDebugGroup():Void;
 	/**
 		Marks a point in a stream of commands with a label.
 	**/
-	function insertDebugMarker(markerLabel:String):Null<Any>;
+	function insertDebugMarker(markerLabel:String):Void;
 	/**
 		Sets the current {@link GPUBindGroup} for the given index.
 
 		Sets the current {@link GPUBindGroup} for the given index, specifying dynamic offsets as a subset
 		of a {@link Uint32Array}.
 	**/
-	@:overload(function(index:Float, bindGroup:GPUBindGroup, dynamicOffsetsData:js.lib.Uint32Array, dynamicOffsetsDataStart:Float, dynamicOffsetsDataLength:Float):Null<Any> { })
-	function setBindGroup(index:Float, bindGroup:GPUBindGroup, ?dynamicOffsets:Iterable<Float>):Null<Any>;
+	@:overload(function(index:Int, bindGroup:GPUBindGroup, dynamicOffsetsData:js.lib.Uint32Array, dynamicOffsetsDataStart:Int, dynamicOffsetsDataLength:Int):Void { })
+	function setBindGroup(index:Int, bindGroup:GPUBindGroup, ?dynamicOffsets:Array<Int>):Void;
 }

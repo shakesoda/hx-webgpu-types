@@ -5,7 +5,7 @@ package global;
 	/**
 		Destroys the {@link GPUQuerySet}.
 	**/
-	function destroy():Null<Any>;
+	function destroy():Void;
 	/**
 		The type of the queries managed by this {@link GPUQuerySet}.
 	**/

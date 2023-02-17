@@ -7,7 +7,7 @@ package global;
 		Submitted command buffers cannot be used again.
 		 	`commandBuffers`:
 	**/
-	function submit(commandBuffers:Iterable<GPUCommandBuffer>):Null<Any>;
+	function submit(commandBuffers:Array<GPUCommandBuffer>):Void;
 	/**
 		Returns a {@link Promise} that resolves once this queue finishes processing all the work submitted
 		up to this moment.
@@ -19,11 +19,11 @@ package global;
 	/**
 		Issues a write operation of the provided data into a {@link GPUBuffer}.
 	**/
-	function writeBuffer(buffer:GPUBuffer, bufferOffset:Float, data:js.lib.BufferSource, ?dataOffset:Float, ?size:Float):Null<Any>;
+	function writeBuffer(buffer:GPUBuffer, bufferOffset:Int, data:js.lib.BufferSource, ?dataOffset:Int, ?size:Int):Void;
 	/**
 		Issues a write operation of the provided data into a {@link GPUTexture}.
 	**/
-	function writeTexture(destination:GPUImageCopyTexture, data:js.lib.BufferSource, dataLayout:GPUImageDataLayout, size:GPUExtent3DStrict):Null<Any>;
+	function writeTexture(destination:GPUImageCopyTexture, data:js.lib.BufferSource, dataLayout:GPUImageDataLayout, size:GPUExtent3DStrict):Void;
 	/**
 		Issues a copy operation of the contents of a platform image/canvas
 		into the destination texture.
@@ -35,6 +35,6 @@ package global;
 		different results depending on whether its format is `-srgb`, all else unchanged.
 		Issue: If an srgb-linear color space is added, explain here how it interacts.
 	**/
-	function copyExternalImageToTexture(source:GPUImageCopyExternalImage, destination:GPUImageCopyTextureTagged, copySize:GPUExtent3DStrict):Null<Any>;
+	function copyExternalImageToTexture(source:GPUImageCopyExternalImage, destination:GPUImageCopyTextureTagged, copySize:GPUExtent3DStrict):Void;
 	var label : String;
 }
