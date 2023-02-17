@@ -54,10 +54,10 @@ typedef GPUTextureDescriptor = {
 		</div>
 	**/
 	@:optional
-	var viewFormats : Iterable<GPUTextureFormat>;
+	var viewFormats : Array<GPUTextureFormat>;
 	/**
 		The initial value of {@link GPUObjectBase#label|GPUObjectBase.label}.
 	**/
 	@:optional
 	var label : String;
-};
+}
