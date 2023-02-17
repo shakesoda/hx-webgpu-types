@@ -6,13 +6,13 @@ package global;
 		Sets the viewport used during the rasterization stage to linearly map from normalized device
 		coordinates to viewport coordinates.
 	**/
-	function setViewport(x:Float, y:Float, width:Float, height:Float, minDepth:Float, maxDepth:Float):Null<Any>;
+	function setViewport(x:Int, y:Int, width:Int, height:Int, minDepth:Float, maxDepth:Float):Null<Any>;
 	/**
 		Sets the scissor rectangle used during the rasterization stage.
 		After transformation into viewport coordinates any fragments which fall outside the scissor
 		rectangle will be discarded.
 	**/
-	function setScissorRect(x:Float, y:Float, width:Float, height:Float):Null<Any>;
+	function setScissorRect(x:Int, y:Int, width:Int, height:Int):Null<Any>;
 	/**
 		Sets the constant blend color and alpha values used with {@link GPUBlendFactor#"constant"}
 		and {@link GPUBlendFactor#"one-minus-constant"} {@link GPUBlendFactor}s.
@@ -22,8 +22,8 @@ package global;
 		Sets the {@link GPURenderPassEncoder#[[stencil_reference]]} value used during stencil tests with
 		the {@link GPUStencilOperation#"replace"} {@link GPUStencilOperation}.
 	**/
-	function setStencilReference(reference:Float):Null<Any>;
-	function beginOcclusionQuery(queryIndex:Float):Null<Any>;
+	function setStencilReference(reference:Int):Null<Any>;
+	function beginOcclusionQuery(queryIndex:Int):Null<Any>;
 	function endOcclusionQuery():Null<Any>;
 	/**
 		Executes the commands previously recorded into the given {@link GPURenderBundle}s as part of
@@ -59,8 +59,8 @@ package global;
 		Sets the current {@link GPUBindGroup} for the given index, specifying dynamic offsets as a subset
 		of a {@link Uint32Array}.
 	**/
-	@:overload(function(index:Float, bindGroup:GPUBindGroup, dynamicOffsetsData:js.lib.Uint32Array, dynamicOffsetsDataStart:Float, dynamicOffsetsDataLength:Float):Null<Any> { })
-	function setBindGroup(index:Float, bindGroup:GPUBindGroup, ?dynamicOffsets:Iterable<Float>):Null<Any>;
+	@:overload(function(index:Int, bindGroup:GPUBindGroup, dynamicOffsetsData:js.lib.Uint32Array, dynamicOffsetsDataStart:Int, dynamicOffsetsDataLength:Int):Null<Any> { })
+	function setBindGroup(index:Int, bindGroup:GPUBindGroup, ?dynamicOffsets:Iterable<Int>):Null<Any>;
 	/**
 		Sets the current {@link GPURenderPipeline}.
 	**/
@@ -68,33 +68,33 @@ package global;
 	/**
 		Sets the current index buffer.
 	**/
-	function setIndexBuffer(buffer:GPUBuffer, indexFormat:GPUIndexFormat, ?offset:Float, ?size:Float):Null<Any>;
+	function setIndexBuffer(buffer:GPUBuffer, indexFormat:GPUIndexFormat, ?offset:Int, ?size:Int):Null<Any>;
 	/**
 		Sets the current vertex buffer for the given slot.
 	**/
-	function setVertexBuffer(slot:Float, buffer:GPUBuffer, ?offset:Float, ?size:Float):Null<Any>;
+	function setVertexBuffer(slot:Int, buffer:GPUBuffer, ?offset:Int, ?size:Int):Null<Any>;
 	/**
 		Draws primitives.
 		See [[#rendering-operations]] for the detailed specification.
 	**/
-	function draw(vertexCount:Float, ?instanceCount:Float, ?firstVertex:Float, ?firstInstance:Float):Null<Any>;
+	function draw(vertexCount:Int, ?instanceCount:Int, ?firstVertex:Int, ?firstInstance:Int):Null<Any>;
 	/**
 		Draws indexed primitives.
 		See [[#rendering-operations]] for the detailed specification.
 	**/
-	function drawIndexed(indexCount:Float, ?instanceCount:Float, ?firstIndex:Float, ?baseVertex:Float, ?firstInstance:Float):Null<Any>;
+	function drawIndexed(indexCount:Int, ?instanceCount:Int, ?firstIndex:Int, ?baseVertex:Int, ?firstInstance:Int):Null<Any>;
 	/**
 		Draws primitives using parameters read from a {@link GPUBuffer}.
 		See [[#rendering-operations]] for the detailed specification.
 		packed block of **four 32-bit unsigned integer values (16 bytes total)**, given in the same
 		order as the arguments for {@link GPURenderEncoderBase#draw}. For example:
 	**/
-	function drawIndirect(indirectBuffer:GPUBuffer, indirectOffset:Float):Null<Any>;
+	function drawIndirect(indirectBuffer:GPUBuffer, indirectOffset:Int):Null<Any>;
 	/**
 		Draws indexed primitives using parameters read from a {@link GPUBuffer}.
 		See [[#rendering-operations]] for the detailed specification.
 		tightly packed block of **five 32-bit unsigned integer values (20 bytes total)**, given in
 		the same order as the arguments for {@link GPURenderEncoderBase#drawIndexed}. For example:
 	**/
-	function drawIndexedIndirect(indirectBuffer:GPUBuffer, indirectOffset:Float):Null<Any>;
+	function drawIndexedIndirect(indirectBuffer:GPUBuffer, indirectOffset:Int):Null<Any>;
 }
