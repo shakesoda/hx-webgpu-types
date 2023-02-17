@@ -1,3 +1,9 @@
 package global;
 
-typedef GPUPrimitiveTopology = String;
+enum abstract GPUPrimitiveTopology(String) {
+	final PointList = "point-list";
+	final LineList = "line-list";
+	final LineStrip = "line-strip";
+	final TriangleList = "triangle-list";
+	final TriangleStrip = "triangle-strip";
+}

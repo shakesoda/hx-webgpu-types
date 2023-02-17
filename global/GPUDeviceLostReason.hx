@@ -1,3 +1,5 @@
 package global;
 
-typedef GPUDeviceLostReason = String;
+enum abstract GPUDeviceLostReason(String) {
+	final Destroyed = "destroyed";
+}

@@ -1,3 +1,7 @@
 package global;
 
-typedef GPUBufferMapState = String;
+enum abstract GPUBufferMapState(String) {
+	final Unmapped = "unmapped";
+	final Pending = "pending";
+	final Mapped = "mapped";
+}

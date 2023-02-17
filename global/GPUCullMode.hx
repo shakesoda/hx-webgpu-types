@@ -1,3 +1,7 @@
 package global;
 
-typedef GPUCullMode = String;
+enum abstract GPUCullMode(String) {
+	final None = "none";
+	final Front = "front";
+	final Back = "back";
+}

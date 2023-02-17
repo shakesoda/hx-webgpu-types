@@ -1,3 +1,6 @@
 package global;
 
-typedef GPUFrontFace = String;
+enum abstract GPUFrontFace(String) {
+	final Ccw = "ccw";
+	final Cw = "cw";
+}

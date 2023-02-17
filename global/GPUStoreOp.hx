@@ -1,3 +1,6 @@
 package global;
 
-typedef GPUStoreOp = String;
+enum abstract GPUStoreOp(String) {
+	final Store = "store";
+	final Discard = "discard";
+}

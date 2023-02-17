@@ -1,3 +1,7 @@
 package global;
 
-typedef GPUCompilationMessageType = String;
+enum abstract GPUCompilationMessageType(String) {
+	final Error = "error";
+	final Warning = "warning";
+	final Info = "info";
+}

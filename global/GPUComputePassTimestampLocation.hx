@@ -1,3 +1,6 @@
 package global;
 
-typedef GPUComputePassTimestampLocation = String;
+enum abstract GPUComputePassTimestampLocation(String) {
+	final Beginning = "beginning";
+	final End = "end";
+}

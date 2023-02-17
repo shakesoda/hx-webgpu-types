@@ -1,3 +1,5 @@
 package global;
 
-typedef GPUAutoLayoutMode = String;
+enum abstract GPUAutoLayoutMode(String) {
+	final Auto = "auto";
+}

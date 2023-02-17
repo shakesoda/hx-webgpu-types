@@ -1,3 +1,6 @@
 package global;
 
-typedef GPUVertexStepMode = String;
+enum abstract GPUVertexStepMode(String) {
+	final Vertex = "vertex";
+	final Instance = "instance";
+}

@@ -1,3 +1,6 @@
 package global;
 
-typedef GPUCanvasAlphaMode = String;
+enum abstract GPUCanvasAlphaMode(String) {
+	final Opaque = "opaque";
+	final Premultiplied = "premultiplied";
+}

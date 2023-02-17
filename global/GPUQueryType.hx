@@ -1,3 +1,6 @@
 package global;
 
-typedef GPUQueryType = String;
+enum abstract GPUQueryType(String) {
+	final Occlusion = "occlusion";
+	final Timestamp = "timestamp";
+}
