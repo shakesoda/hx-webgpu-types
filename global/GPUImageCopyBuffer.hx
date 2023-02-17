@@ -27,4 +27,4 @@ typedef GPUImageCopyBuffer = {
 	**/
 	@:optional
 	var rowsPerImage : Int;
-};
+}

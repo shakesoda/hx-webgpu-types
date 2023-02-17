@@ -44,4 +44,4 @@ typedef GPUTextureViewDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

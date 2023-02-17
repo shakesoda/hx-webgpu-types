@@ -38,4 +38,4 @@ typedef GPURenderPassDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

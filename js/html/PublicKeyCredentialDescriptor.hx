@@ -5,4 +5,4 @@ typedef PublicKeyCredentialDescriptor = {
 	@:optional
 	var transports : Array<AuthenticatorTransport>;
 	var type : String;
-};
+}

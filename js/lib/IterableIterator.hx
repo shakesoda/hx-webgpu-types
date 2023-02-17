@@ -8,4 +8,4 @@ typedef IterableIterator<T> = {
 	@:optional
 	@:native("throw")
 	function throw_(?e:Dynamic):IteratorResult<T, Dynamic>;
-};
+}

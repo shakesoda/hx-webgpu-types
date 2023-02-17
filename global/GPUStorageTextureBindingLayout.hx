@@ -17,4 +17,4 @@ typedef GPUStorageTextureBindingLayout = {
 	**/
 	@:optional
 	var viewDimension : GPUTextureViewDimension;
-};
+}

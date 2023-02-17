@@ -9,4 +9,4 @@ typedef GPUShaderModuleCompilationHint = {
 	**/
 	@:optional
 	var layout : ts.AnyOf2<String, GPUPipelineLayout>;
-};
+}

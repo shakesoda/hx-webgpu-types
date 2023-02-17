@@ -33,4 +33,4 @@ typedef GPUImageCopyTextureTagged = {
 	**/
 	@:optional
 	var aspect : GPUTextureAspect;
-};
+}

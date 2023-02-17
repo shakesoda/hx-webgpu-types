@@ -12,4 +12,4 @@ typedef PublicKeyCredentialRequestOptions = {
 	var timeout : Float;
 	@:optional
 	var userVerification : UserVerificationRequirement;
-};
+}

@@ -6,4 +6,4 @@ typedef GPUPipelineBase = {
 		{@link GPUBindGroupLayout} at `index`.
 	**/
 	function getBindGroupLayout(index:Float):GPUBindGroupLayout;
-};
+}

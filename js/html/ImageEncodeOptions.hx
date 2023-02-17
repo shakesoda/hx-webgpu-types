@@ -5,4 +5,4 @@ typedef ImageEncodeOptions = {
 	var quality : Float;
 	@:optional
 	var type : String;
-};
+}

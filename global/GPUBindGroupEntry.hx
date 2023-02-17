@@ -12,4 +12,4 @@ typedef GPUBindGroupEntry = {
 		{@link GPUExternalTexture}, or {@link GPUBufferBinding}.
 	**/
 	var resource : GPUBindingResource;
-};
+}

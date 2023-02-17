@@ -32,4 +32,4 @@ typedef GPUDeviceDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

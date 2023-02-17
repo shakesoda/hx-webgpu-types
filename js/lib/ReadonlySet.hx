@@ -16,4 +16,4 @@ typedef ReadonlySet<T> = {
 		Returns an iterable of values in the set.
 	**/
 	function values():IterableIterator<T>;
-};
+}

@@ -7,4 +7,4 @@ typedef GPUOrigin3DDict = {
 	var y : Float;
 	@:optional
 	var z : Float;
-};
+}

@@ -7,4 +7,4 @@ typedef GPUBindGroupLayoutDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

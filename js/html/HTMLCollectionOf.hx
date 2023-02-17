@@ -10,4 +10,4 @@ typedef HTMLCollectionOf<T> = {
 		Sets or retrieves the number of objects in a collection.
 	**/
 	final length : Float;
-};
+}

@@ -43,4 +43,4 @@ typedef GPUBindGroupLayoutEntry = {
 	**/
 	@:optional
 	var externalTexture : GPUExternalTextureBindingLayout;
-};
+}

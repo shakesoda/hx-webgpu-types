@@ -36,4 +36,4 @@ typedef GPUCanvasConfiguration = {
 	var compositingAlphaMode : GPUCanvasAlphaMode;
 	@:optional
 	var size : GPUExtent3D;
-};
+}

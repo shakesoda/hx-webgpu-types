@@ -6,4 +6,4 @@ typedef GPUExtent3DDict = {
 	var height : Float;
 	@:optional
 	var depthOrArrayLayers : Float;
-};
+}

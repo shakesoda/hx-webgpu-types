@@ -6,4 +6,4 @@ typedef PublicKeyCredentialUserEntity = {
 	@:optional
 	var icon : String;
 	var name : String;
-};
+}

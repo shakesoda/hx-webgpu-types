@@ -25,4 +25,4 @@ typedef GPUStencilFaceState = {
 	**/
 	@:optional
 	var passOp : GPUStencilOperation;
-};
+}

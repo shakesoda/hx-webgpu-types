@@ -19,4 +19,4 @@ typedef WebGLContextAttributes = {
 	var preserveDrawingBuffer : Bool;
 	@:optional
 	var stencil : Bool;
-};
+}

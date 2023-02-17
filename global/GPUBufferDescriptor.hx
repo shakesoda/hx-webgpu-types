@@ -25,4 +25,4 @@ typedef GPUBufferDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

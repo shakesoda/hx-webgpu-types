@@ -34,4 +34,4 @@ typedef GPURenderPassColorAttachment = {
 		after executing the render pass.
 	**/
 	var storeOp : GPUStoreOp;
-};
+}

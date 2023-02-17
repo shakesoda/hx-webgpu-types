@@ -13,4 +13,4 @@ typedef GPUDebugCommandsMixin = {
 		Marks a point in a stream of commands with a label.
 	**/
 	function insertDebugMarker(markerLabel:String):Null<Any>;
-};
+}

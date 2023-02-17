@@ -9,4 +9,4 @@ typedef StoreExceptionsInformation = {
 	var siteName : String;
 	@:optional
 	var domain : String;
-};
+}

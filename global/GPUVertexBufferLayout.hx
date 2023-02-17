@@ -14,4 +14,4 @@ typedef GPUVertexBufferLayout = {
 		An array defining the layout of the vertex attributes within each element.
 	**/
 	var attributes : Iterable<GPUVertexAttribute>;
-};
+}

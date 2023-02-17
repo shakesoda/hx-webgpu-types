@@ -25,4 +25,4 @@ typedef NodeListOf<TNode> = {
 		Returns an list of values in the list.
 	**/
 	function values():js.lib.IterableIterator<TNode>;
-};
+}

@@ -5,4 +5,4 @@ typedef ConfirmSiteSpecificExceptionsInformation = {
 	var arrayOfDomainStrings : Array<String>;
 	@:optional
 	var domain : String;
-};
+}

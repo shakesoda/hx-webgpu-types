@@ -7,4 +7,4 @@ typedef VRStageParameters = {
 	var sizeX : Float;
 	@:optional
 	var sizeY : Float;
-};
+}

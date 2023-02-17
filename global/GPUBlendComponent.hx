@@ -17,4 +17,4 @@ typedef GPUBlendComponent = {
 	**/
 	@:optional
 	var dstFactor : GPUBlendFactor;
-};
+}

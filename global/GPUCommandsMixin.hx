@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUCommandsMixin = { };
+typedef GPUCommandsMixin = { }

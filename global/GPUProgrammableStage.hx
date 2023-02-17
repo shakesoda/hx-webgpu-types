@@ -5,4 +5,4 @@ typedef GPUProgrammableStage = {
 	var entryPoint : String;
 	@:optional
 	var constants : haxe.DynamicAccess<Float>;
-};
+}

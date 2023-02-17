@@ -7,4 +7,4 @@ typedef GPUExternalTextureDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

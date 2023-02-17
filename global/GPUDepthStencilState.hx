@@ -55,4 +55,4 @@ typedef GPUDepthStencilState = {
 	**/
 	@:optional
 	var depthBiasClamp : Float;
-};
+}

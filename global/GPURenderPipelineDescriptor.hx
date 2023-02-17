@@ -32,4 +32,4 @@ typedef GPURenderPipelineDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

@@ -11,4 +11,4 @@ typedef GPURenderPassLayout = {
 	**/
 	@:optional
 	var label : String;
-};
+}

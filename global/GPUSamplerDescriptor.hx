@@ -56,4 +56,4 @@ typedef GPUSamplerDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

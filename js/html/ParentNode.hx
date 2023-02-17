@@ -38,4 +38,4 @@ typedef ParentNode = {
 	@:overload(function<K>(selectors:K):NodeListOf<Dynamic> { })
 	@:overload(function<E>(selectors:String):NodeListOf<E> { })
 	function querySelectorAll<K>(selectors:K):NodeListOf<Dynamic>;
-};
+}

@@ -6,4 +6,4 @@ typedef GPUSamplerBindingLayout = {
 	**/
 	@:optional
 	var type : GPUSamplerBindingType;
-};
+}

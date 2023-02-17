@@ -17,4 +17,4 @@ typedef AuthenticationExtensionsClientInputs = {
 	var uvi : Bool;
 	@:optional
 	var uvm : Bool;
-};
+}

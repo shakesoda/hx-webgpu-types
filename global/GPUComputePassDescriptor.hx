@@ -11,4 +11,4 @@ typedef GPUComputePassDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

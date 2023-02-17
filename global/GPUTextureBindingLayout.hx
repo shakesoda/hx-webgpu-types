@@ -17,4 +17,4 @@ typedef GPUTextureBindingLayout = {
 	**/
 	@:optional
 	var multisampled : Bool;
-};
+}

@@ -5,4 +5,4 @@ typedef GPURequestAdapterOptions = {
 	var powerPreference : GPUPowerPreference;
 	@:optional
 	var forceFallbackAdapter : Bool;
-};
+}

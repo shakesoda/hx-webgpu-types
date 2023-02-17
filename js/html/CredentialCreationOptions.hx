@@ -5,4 +5,4 @@ typedef CredentialCreationOptions = {
 	var publicKey : PublicKeyCredentialCreationOptions;
 	@:optional
 	var signal : js.html.AbortSignal;
-};
+}

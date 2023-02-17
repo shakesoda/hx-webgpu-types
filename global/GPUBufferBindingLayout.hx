@@ -29,4 +29,4 @@ typedef GPUBufferBindingLayout = {
 	**/
 	@:optional
 	var minBindingSize : Int;
-};
+}

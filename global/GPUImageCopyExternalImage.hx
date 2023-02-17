@@ -21,4 +21,4 @@ typedef GPUImageCopyExternalImage = {
 	**/
 	@:optional
 	var flipY : Bool;
-};
+}

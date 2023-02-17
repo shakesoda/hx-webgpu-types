@@ -8,4 +8,4 @@ typedef GPUExtent3DDictStrict = {
 	var height : Float;
 	@:optional
 	var depthOrArrayLayers : Float;
-};
+}

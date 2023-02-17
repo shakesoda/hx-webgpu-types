@@ -11,4 +11,4 @@ typedef StoreSiteSpecificExceptionsInformation = {
 	var siteName : String;
 	@:optional
 	var domain : String;
-};
+}

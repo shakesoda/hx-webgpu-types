@@ -20,4 +20,4 @@ typedef GPUMultisampleState = {
 	**/
 	@:optional
 	var alphaToCoverageEnabled : Bool;
-};
+}

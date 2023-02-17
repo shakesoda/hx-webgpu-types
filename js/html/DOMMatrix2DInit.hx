@@ -25,4 +25,4 @@ typedef DOMMatrix2DInit = {
 	var m41 : Float;
 	@:optional
 	var m42 : Float;
-};
+}

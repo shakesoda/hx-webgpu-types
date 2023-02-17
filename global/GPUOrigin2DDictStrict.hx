@@ -7,4 +7,4 @@ typedef GPUOrigin2DDictStrict = {
 	var x : Float;
 	@:optional
 	var y : Float;
-};
+}

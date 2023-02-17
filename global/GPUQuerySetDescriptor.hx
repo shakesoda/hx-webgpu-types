@@ -14,4 +14,4 @@ typedef GPUQuerySetDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

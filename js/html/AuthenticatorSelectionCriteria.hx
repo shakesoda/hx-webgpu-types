@@ -7,4 +7,4 @@ typedef AuthenticatorSelectionCriteria = {
 	var requireResidentKey : Bool;
 	@:optional
 	var userVerification : UserVerificationRequirement;
-};
+}

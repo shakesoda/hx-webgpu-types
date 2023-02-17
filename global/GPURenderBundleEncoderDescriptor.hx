@@ -15,4 +15,4 @@ typedef GPURenderBundleEncoderDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

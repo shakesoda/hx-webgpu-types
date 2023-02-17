@@ -22,4 +22,4 @@ typedef GPUImageDataLayout = {
 	**/
 	@:optional
 	var rowsPerImage : Int;
-};
+}

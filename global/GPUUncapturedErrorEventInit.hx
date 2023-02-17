@@ -8,4 +8,4 @@ typedef GPUUncapturedErrorEventInit = {
 	var cancelable : Bool;
 	@:optional
 	var composed : Bool;
-};
+}

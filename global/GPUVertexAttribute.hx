@@ -15,4 +15,4 @@ typedef GPUVertexAttribute = {
 		declared in the {@link GPURenderPipelineDescriptor#vertex}.{@link GPUProgrammableStage#module|module}.
 	**/
 	var shaderLocation : Int;
-};
+}

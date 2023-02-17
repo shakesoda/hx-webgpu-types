@@ -7,4 +7,4 @@ typedef CredentialRequestOptions = {
 	var publicKey : PublicKeyCredentialRequestOptions;
 	@:optional
 	var signal : js.html.AbortSignal;
-};
+}

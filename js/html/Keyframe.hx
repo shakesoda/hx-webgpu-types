@@ -7,4 +7,4 @@ typedef Keyframe = {
 	var easing : String;
 	@:optional
 	var offset : Float;
-};
+}

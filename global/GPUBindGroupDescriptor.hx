@@ -15,4 +15,4 @@ typedef GPUBindGroupDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

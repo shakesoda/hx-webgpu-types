@@ -10,4 +10,4 @@ typedef GPUPipelineLayoutDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

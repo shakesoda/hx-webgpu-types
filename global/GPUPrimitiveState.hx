@@ -38,4 +38,4 @@ typedef GPUPrimitiveState = {
 	**/
 	@:optional
 	var unclippedDepth : Bool;
-};
+}

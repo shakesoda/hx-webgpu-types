@@ -62,4 +62,4 @@ typedef GPURenderPassDepthStencilAttachment = {
 	**/
 	@:optional
 	var stencilReadOnly : Bool;
-};
+}

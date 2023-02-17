@@ -36,4 +36,4 @@ typedef GPUShaderModuleDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

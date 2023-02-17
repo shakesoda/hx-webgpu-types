@@ -11,4 +11,4 @@ typedef GPUComputePipelineDescriptor = {
 	**/
 	@:optional
 	var label : String;
-};
+}

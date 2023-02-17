@@ -17,4 +17,4 @@ typedef GPUBufferBinding = {
 	**/
 	@:optional
 	var size : Int;
-};
+}

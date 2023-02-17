@@ -7,4 +7,4 @@ typedef GPUPipelineDescriptorBase = {
 	**/
 	@:optional
 	var label : String;
-};
+}

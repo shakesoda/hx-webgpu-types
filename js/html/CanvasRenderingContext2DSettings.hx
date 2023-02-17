@@ -5,4 +5,4 @@ typedef CanvasRenderingContext2DSettings = {
 	var alpha : Bool;
 	@:optional
 	var desynchronized : Bool;
-};
+}

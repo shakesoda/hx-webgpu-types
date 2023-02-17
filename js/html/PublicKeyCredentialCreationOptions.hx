@@ -15,4 +15,4 @@ typedef PublicKeyCredentialCreationOptions = {
 	@:optional
 	var timeout : Float;
 	var user : PublicKeyCredentialUserEntity;
-};
+}

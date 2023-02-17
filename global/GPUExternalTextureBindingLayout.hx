@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUExternalTextureBindingLayout = { };
+typedef GPUExternalTextureBindingLayout = { }

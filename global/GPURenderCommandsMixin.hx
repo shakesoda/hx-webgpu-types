@@ -37,4 +37,4 @@ typedef GPURenderCommandsMixin = {
 		the same order as the arguments for {@link GPURenderEncoderBase#drawIndexed}. For example:
 	**/
 	function drawIndexedIndirect(indirectBuffer:GPUBuffer, indirectOffset:Float):Null<Any>;
-};
+}

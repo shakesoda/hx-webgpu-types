@@ -21,4 +21,4 @@ typedef GPUImageCopyTexture = {
 	**/
 	@:optional
 	var aspect : GPUTextureAspect;
-};
+}

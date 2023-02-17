@@ -5,4 +5,4 @@ typedef GPUOrigin2DDict = {
 	var x : Float;
 	@:optional
 	var y : Float;
-};
+}
