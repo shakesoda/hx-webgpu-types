@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUQuerySet") extern class GPUQuerySet {
-	function new();
 	/**
 		Destroys the {@link GPUQuerySet}.
 	**/

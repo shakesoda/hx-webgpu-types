@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUBuffer") extern class GPUBuffer {
-	function new();
 	final size : Int;
 	final usage : Int;
 	final mapState : GPUBufferMapState;

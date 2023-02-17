@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUComputePassEncoder") extern class GPUComputePassEncoder {
-	function new();
 	/**
 		Sets the current {@link GPUComputePipeline}.
 	**/

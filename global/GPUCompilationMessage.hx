@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUCompilationMessage") extern class GPUCompilationMessage {
-	function new();
 	/**
 		A human-readable string containing the message generated during the shader compilation.
 	**/

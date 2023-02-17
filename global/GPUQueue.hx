@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUQueue") extern class GPUQueue {
-	function new();
 	/**
 		Schedules the execution of the command buffers by the GPU on this queue.
 		Submitted command buffers cannot be used again.

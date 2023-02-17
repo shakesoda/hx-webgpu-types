@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUCanvasContext") extern class GPUCanvasContext {
-	function new();
 	/**
 		The canvas this context was created from.
 	**/

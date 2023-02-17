@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUDevice") extern class GPUDevice {
-	function new();
 	/**
 		A set containing the {@link GPUFeatureName} values of the features
 		supported by the device (i.e. the ones with which it was created).

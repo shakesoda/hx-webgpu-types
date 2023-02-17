@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUTexture") extern class GPUTexture {
-	function new();
 	/**
 		Creates a {@link GPUTextureView}.
 	**/

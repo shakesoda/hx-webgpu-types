@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPURenderPassEncoder") extern class GPURenderPassEncoder {
-	function new();
 	/**
 		Sets the viewport used during the rasterization stage to linearly map from normalized device
 		coordinates to viewport coordinates.

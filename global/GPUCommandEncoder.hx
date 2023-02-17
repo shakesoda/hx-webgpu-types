@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUCommandEncoder") extern class GPUCommandEncoder {
-	function new();
 	/**
 		Begins encoding a render pass described by `descriptor`.
 	**/

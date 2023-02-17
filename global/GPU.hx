@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPU") extern class GPU {
-	function new();
 	/**
 		Requests an adapter from the user agent.
 		The user agent chooses whether to return an adapter, and, if so,

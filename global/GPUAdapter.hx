@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPUAdapter") extern class GPUAdapter {
-	function new();
 	final name : String;
 	/**
 		The set of values in `this`.{@link GPUAdapter#[[adapter]]}.{@link adapter#[[features]]}.

@@ -1,7 +1,6 @@
 package global;
 
 @:native("GPURenderBundleEncoder") extern class GPURenderBundleEncoder {
-	function new();
 	/**
 		Completes recording of the render bundle commands sequence.
 		 	descriptor:
