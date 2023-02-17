@@ -18,11 +18,11 @@ package global;
 		{@link GPUBuffer#mapAsync} calls made prior to that call,
 		on {@link GPUBuffer}s last used exclusively on that queue.
 	**/
-	function mapAsync(mode:Float, ?offset:Float, ?size:Float):js.lib.Promise<Null<Any>>;
+	function mapAsync(mode:Int, ?offset:Int, ?size:Int):js.lib.Promise<Null<Any>>;
 	/**
 		Returns an {@link ArrayBuffer} with the contents of the {@link GPUBuffer} in the given mapped range.
 	**/
-	function getMappedRange(?offset:Float, ?size:Float):js.lib.ArrayBuffer;
+	function getMappedRange(?offset:Int, ?size:Int):js.lib.ArrayBuffer;
 	/**
 		Unmaps the mapped range of the {@link GPUBuffer} and makes it's contents available for use by the
 		GPU again.
