@@ -4,15 +4,15 @@ typedef GPUBindGroupDescriptor = {
 	/**
 		The {@link GPUBindGroupLayout} the entries of this bind group will conform to.
 	**/
-	var layout : GPUBindGroupLayout;
+	var layout: GPUBindGroupLayout;
 	/**
 		A list of entries describing the resources to expose to the shader for each binding
 		described by the {@link GPUBindGroupDescriptor#layout}.
 	**/
-	var entries : Array<GPUBindGroupEntry>;
+	var entries: Array<GPUBindGroupEntry>;
 	/**
 		The initial value of {@link GPUObjectBase#label|GPUObjectBase.label}.
 	**/
 	@:optional
-	var label : String;
+	var label: String;
 }

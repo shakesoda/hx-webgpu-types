@@ -6,15 +6,15 @@ typedef GPUBlendComponent = {
 		attachment components.
 	**/
 	@:optional
-	var operation : GPUBlendOperation;
+	var operation: GPUBlendOperation;
 	/**
 		Defines the {@link GPUBlendFactor} operation to be performed on values from the fragment shader.
 	**/
 	@:optional
-	var srcFactor : GPUBlendFactor;
+	var srcFactor: GPUBlendFactor;
 	/**
 		Defines the {@link GPUBlendFactor} operation to be performed on values from the target attachment.
 	**/
 	@:optional
-	var dstFactor : GPUBlendFactor;
+	var dstFactor: GPUBlendFactor;
 }

@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUBufferDynamicOffset = Float;
+typedef GPUBufferDynamicOffset = Int;

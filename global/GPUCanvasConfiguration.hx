@@ -5,12 +5,12 @@ typedef GPUCanvasConfiguration = {
 		The {@link GPUDevice} that textures returned by {@link GPUCanvasContext#getCurrentTexture} will be
 		compatible with.
 	**/
-	var device : GPUDevice;
+	var device: GPUDevice;
 	/**
 		The format that textures returned by {@link GPUCanvasContext#getCurrentTexture} will have.
 		Must be one of the Supported context formats.
 	**/
-	var format : GPUTextureFormat;
+	var format: GPUTextureFormat;
 	/**
 		The usage that textures returned by {@link GPUCanvasContext#getCurrentTexture} will have.
 		{@link GPUTextureUsage#RENDER_ATTACHMENT} is the default, but is not automatically included
@@ -19,21 +19,21 @@ typedef GPUCanvasConfiguration = {
 		{@link GPUCanvasContext#getCurrentTexture} as color targets for a render pass.
 	**/
 	@:optional
-	var usage : Int;
+	var usage: Int;
 	/**
 		The formats that views created from textures returned by
 		{@link GPUCanvasContext#getCurrentTexture} may use.
 	**/
 	@:optional
-	var viewFormats : Array<GPUTextureFormat>;
+	var viewFormats: Array<GPUTextureFormat>;
 	/**
 		Determines the effect that alpha values will have on the content of textures returned by
 		{@link GPUCanvasContext#getCurrentTexture} when read, displayed, or used as an image source.
 	**/
 	@:optional
-	var alphaMode : GPUCanvasAlphaMode;
+	var alphaMode: GPUCanvasAlphaMode;
 	@:optional
-	var compositingAlphaMode : GPUCanvasAlphaMode;
+	var compositingAlphaMode: GPUCanvasAlphaMode;
 	@:optional
-	var size : GPUExtent3D;
+	var size: GPUExtent3D;
 }

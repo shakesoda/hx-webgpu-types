@@ -4,17 +4,17 @@ typedef GPUBufferBinding = {
 	/**
 		The {@link GPUBuffer} to bind.
 	**/
-	var buffer : GPUBuffer;
+	var buffer: GPUBuffer;
 	/**
 		The offset, in bytes, from the beginning of {@link GPUBufferBinding#buffer} to the
 		beginning of the range exposed to the shader by the buffer binding.
 	**/
 	@:optional
-	var offset : Int;
+	var offset: Int;
 	/**
 		The size, in bytes, of the buffer binding. If `undefined`, specifies the range starting at
 		{@link GPUBufferBinding#offset} and ending at the end of {@link GPUBufferBinding#buffer}.
 	**/
 	@:optional
-	var size : Int;
+	var size: Int;
 }

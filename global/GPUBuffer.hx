@@ -1,9 +1,9 @@
 package global;
 
 @:native("GPUBuffer") extern class GPUBuffer {
-	final size : Int;
-	final usage : Int;
-	final mapState : GPUBufferMapState;
+	final size: Int;
+	final usage: Int;
+	final mapState: GPUBufferMapState;
 	/**
 		Maps the given range of the {@link GPUBuffer} and resolves the returned {@link Promise} when the
 		{@link GPUBuffer}'s content is ready to be accessed with {@link GPUBuffer#getMappedRange}.
@@ -17,22 +17,22 @@ package global;
 		{@link GPUBuffer#mapAsync} calls made prior to that call,
 		on {@link GPUBuffer}s last used exclusively on that queue.
 	**/
-	function mapAsync(mode:Int, ?offset:Int, ?size:Int):js.lib.Promise<Null<Any>>;
+	function mapAsync(mode:Int, ?offset:Int, ?size:Int): js.lib.Promise<Null<Any>>;
 	/**
 		Returns an {@link ArrayBuffer} with the contents of the {@link GPUBuffer} in the given mapped range.
 	**/
-	function getMappedRange(?offset:Int, ?size:Int):js.lib.ArrayBuffer;
+	function getMappedRange(?offset:Int, ?size:Int): js.lib.ArrayBuffer;
 	/**
 		Unmaps the mapped range of the {@link GPUBuffer} and makes it's contents available for use by the
 		GPU again.
 	**/
-	function unmap():Void;
+	function unmap(): Void;
 	/**
 		Destroys the {@link GPUBuffer}.
 		Note: It is valid to destroy a buffer multiple times.
 		Note: Since no further operations can be enqueued using this buffer, implementations can
 		free resource allocations, including mapped memory that was just unmapped.
 	**/
-	function destroy():Void;
-	var label : String;
+	function destroy(): Void;
+	var label: String;
 }

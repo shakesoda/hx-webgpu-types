@@ -6,41 +6,41 @@ typedef GPUBindGroupLayoutEntry = {
 		to a {@link GPUBindGroupEntry#binding|GPUBindGroupEntry.binding} and a @binding
 		attribute in the {@link GPUShaderModule}.
 	**/
-	var binding : Int;
+	var binding: Int;
 	/**
 		A bitset of the members of {@link GPUShaderStage}.
 		Each set bit indicates that a {@link GPUBindGroupLayoutEntry}'s resource
 		will be accessible from the associated shader stage.
 	**/
-	var visibility : Int;
+	var visibility: Int;
 	/**
 		When not `undefined`, indicates the binding resource type for this {@link GPUBindGroupLayoutEntry}
 		is {@link GPUBufferBinding}.
 	**/
 	@:optional
-	var buffer : GPUBufferBindingLayout;
+	var buffer: GPUBufferBindingLayout;
 	/**
 		When not `undefined`, indicates the binding resource type for this {@link GPUBindGroupLayoutEntry}
 		is {@link GPUSampler}.
 	**/
 	@:optional
-	var sampler : GPUSamplerBindingLayout;
+	var sampler: GPUSamplerBindingLayout;
 	/**
 		When not `undefined`, indicates the binding resource type for this {@link GPUBindGroupLayoutEntry}
 		is {@link GPUTextureView}.
 	**/
 	@:optional
-	var texture : GPUTextureBindingLayout;
+	var texture: GPUTextureBindingLayout;
 	/**
 		When not `undefined`, indicates the binding resource type for this {@link GPUBindGroupLayoutEntry}
 		is {@link GPUTextureView}.
 	**/
 	@:optional
-	var storageTexture : GPUStorageTextureBindingLayout;
+	var storageTexture: GPUStorageTextureBindingLayout;
 	/**
 		When not `undefined`, indicates the binding resource type for this {@link GPUBindGroupLayoutEntry}
 		is {@link GPUExternalTexture}.
 	**/
 	@:optional
-	var externalTexture : GPUExternalTextureBindingLayout;
+	var externalTexture: GPUExternalTextureBindingLayout;
 }

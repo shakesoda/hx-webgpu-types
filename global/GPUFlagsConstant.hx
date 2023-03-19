@@ -1,3 +1,3 @@
 package global;
 
-typedef GPUFlagsConstant = Float;
+typedef GPUFlagsConstant = Int;

@@ -4,11 +4,11 @@ typedef GPUBufferDescriptor = {
 	/**
 		The size of the buffer in bytes.
 	**/
-	var size : Int;
+	var size: Int;
 	/**
 		The allowed usages for the buffer.
 	**/
-	var usage : Int;
+	var usage: Int;
 	/**
 		If `true` creates the buffer in an already mapped state, allowing
 		{@link GPUBuffer#getMappedRange} to be called immediately. It is valid to set
@@ -19,10 +19,10 @@ typedef GPUBufferDescriptor = {
 		mapped range can be written/read to until it is unmapped.
 	**/
 	@:optional
-	var mappedAtCreation : Bool;
+	var mappedAtCreation: Bool;
 	/**
 		The initial value of {@link GPUObjectBase#label|GPUObjectBase.label}.
 	**/
 	@:optional
-	var label : String;
+	var label: String;
 }

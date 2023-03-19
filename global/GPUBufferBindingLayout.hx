@@ -5,12 +5,12 @@ typedef GPUBufferBindingLayout = {
 		Indicates the type required for buffers bound to this bindings.
 	**/
 	@:optional
-	var type : GPUBufferBindingType;
+	var type: GPUBufferBindingType;
 	/**
 		Indicates whether this binding requires a dynamic offset.
 	**/
 	@:optional
-	var hasDynamicOffset : Bool;
+	var hasDynamicOffset: Bool;
 	/**
 		Indicates the minimum buffer binding size.
 		Bindings are always validated against this size in {@link GPUDevice#createBindGroup}.
@@ -28,5 +28,5 @@ typedef GPUBufferBindingLayout = {
 		most ergonomic impact.
 	**/
 	@:optional
-	var minBindingSize : Int;
+	var minBindingSize: Int;
 }
