@@ -10,13 +10,11 @@ typedef GPUDepthStencilState = {
 		Indicates if this {@link GPURenderPipeline} can modify
 		{@link GPURenderPassDescriptor#depthStencilAttachment} depth values.
 	**/
-	@:optional
 	var depthWriteEnabled : Bool;
 	/**
 		The comparison operation used to test fragment depths against
 		{@link GPURenderPassDescriptor#depthStencilAttachment} depth values.
 	**/
-	@:optional
 	var depthCompare : GPUCompareFunction;
 	/**
 		Defines how stencil comparisons and operations are performed for front-facing primitives.
